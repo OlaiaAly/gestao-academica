@@ -1,0 +1,13 @@
+{
+    "require": {
+        "dompdf/dompdf": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "App/"
+        }
+    },
+    "config": {
+        "vendor-dir": "App/lib/"
+    }
+}
